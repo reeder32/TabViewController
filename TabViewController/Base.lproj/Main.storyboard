@@ -1,25 +1,130 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JWa-bg-C1y">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Marge-->
+        <scene sceneID="XO1-HH-4Zf">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="IMA-gD-tgZ" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="Pul-jl-htF"/>
+                        <viewControllerLayoutGuide type="bottom" id="10u-Wc-yBx"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <view key="view" contentMode="scaleToFill" id="Z53-HC-Xkw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marge.png" translatesAutoresizingMaskIntoConstraints="NO" id="ccm-3s-8Wj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ccm-3s-8Wj" firstAttribute="bottom" secondItem="10u-Wc-yBx" secondAttribute="top" id="Axv-QT-ydq"/>
+                            <constraint firstItem="ccm-3s-8Wj" firstAttribute="leading" secondItem="Z53-HC-Xkw" secondAttribute="leading" id="XPp-cm-KE1"/>
+                            <constraint firstAttribute="trailing" secondItem="ccm-3s-8Wj" secondAttribute="trailing" id="YEe-Nd-y1U"/>
+                            <constraint firstItem="ccm-3s-8Wj" firstAttribute="top" secondItem="Z53-HC-Xkw" secondAttribute="top" id="Yoc-cT-qYf"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Marge" image="marge_icon.png" id="K4u-RM-1gJ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0k-gx-ZaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-60" y="1198"/>
+        </scene>
+        <!--Bart-->
+        <scene sceneID="dX0-6O-gsb">
+            <objects>
+                <viewController id="7I7-zR-pJs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l5U-gt-utc"/>
+                        <viewControllerLayoutGuide type="bottom" id="3qT-GC-5ij"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AAO-je-V5h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bart.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hap-uG-Y68">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hap-uG-Y68" firstAttribute="top" secondItem="AAO-je-V5h" secondAttribute="top" id="a6e-10-GIH"/>
+                            <constraint firstItem="Hap-uG-Y68" firstAttribute="leading" secondItem="AAO-je-V5h" secondAttribute="leading" id="asa-hC-aQO"/>
+                            <constraint firstAttribute="trailing" secondItem="Hap-uG-Y68" secondAttribute="trailing" id="rGH-Qi-yE6"/>
+                            <constraint firstItem="Hap-uG-Y68" firstAttribute="bottom" secondItem="3qT-GC-5ij" secondAttribute="top" id="vwy-dL-XrB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bart" image="bart_icon.png" id="NaA-XG-cP4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qS8-Bg-Ttf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-410" y="1676"/>
+        </scene>
+        <!--Homer-->
+        <scene sceneID="ZmZ-NQ-BNa">
+            <objects>
+                <viewController id="EWn-lr-8XS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t3p-D1-Ehr"/>
+                        <viewControllerLayoutGuide type="bottom" id="PF2-y4-XXd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sSy-OX-2VP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homer.png" translatesAutoresizingMaskIntoConstraints="NO" id="fik-ae-ZlG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fik-ae-ZlG" firstAttribute="bottom" secondItem="PF2-y4-XXd" secondAttribute="top" id="9fL-q8-uDo"/>
+                            <constraint firstItem="fik-ae-ZlG" firstAttribute="top" secondItem="sSy-OX-2VP" secondAttribute="top" id="ApU-Az-bUb"/>
+                            <constraint firstItem="fik-ae-ZlG" firstAttribute="leading" secondItem="sSy-OX-2VP" secondAttribute="leading" id="D3b-J8-wKH"/>
+                            <constraint firstAttribute="trailing" secondItem="fik-ae-ZlG" secondAttribute="trailing" id="vNj-NI-D02"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Homer" image="duff.png" id="k3t-IB-8mO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgS-ag-Zvc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-60" y="379"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pYS-hp-z5V">
+            <objects>
+                <tabBarController useStoryboardIdentifierAsRestorationIdentifier="YES" id="JWa-bg-C1y" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Q1C-yo-jOC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EWn-lr-8XS" kind="relationship" relationship="viewControllers" id="zMF-Fj-pzK"/>
+                        <segue destination="IMA-gD-tgZ" kind="relationship" relationship="viewControllers" id="jjW-bR-FMi"/>
+                        <segue destination="7I7-zR-pJs" kind="relationship" relationship="viewControllers" id="JqW-vR-npj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syC-4n-LzD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-880" y="710"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bart.png" width="225" height="225"/>
+        <image name="bart_icon.png" width="30" height="30"/>
+        <image name="duff.png" width="30" height="30"/>
+        <image name="homer.png" width="284" height="177"/>
+        <image name="marge.png" width="750" height="1334"/>
+        <image name="marge_icon.png" width="30" height="30"/>
+    </resources>
 </document>

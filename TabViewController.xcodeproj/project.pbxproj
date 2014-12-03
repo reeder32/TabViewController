@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F66B801A2EFDE800C298AA /* bart_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B7F1A2EFDE800C298AA /* bart_icon.png */; };
+		27F66B821A2EFE2900C298AA /* marge_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B811A2EFE2900C298AA /* marge_icon.png */; };
+		27F66B841A2EFE5000C298AA /* duff.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B831A2EFE5000C298AA /* duff.png */; };
+		27F66B881A2F014200C298AA /* bart_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B851A2F014200C298AA /* bart_icon@2x.png */; };
+		27F66B891A2F014200C298AA /* duff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B861A2F014200C298AA /* duff@2x.png */; };
+		27F66B8A1A2F014200C298AA /* marge_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B871A2F014200C298AA /* marge_icon@2x.png */; };
+		27F66B8C1A2F048100C298AA /* marge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B8B1A2F048100C298AA /* marge@2x.png */; };
+		27F66B8E1A2F050700C298AA /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B8D1A2F050700C298AA /* marge.png */; };
+		27F66B901A2F05EA00C298AA /* marge_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F66B8F1A2F05EA00C298AA /* marge_new.png */; };
 		27FFF9961A2EF0A700A12A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFF9951A2EF0A700A12A7F /* main.m */; };
 		27FFF9991A2EF0A700A12A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFF9981A2EF0A700A12A7F /* AppDelegate.m */; };
 		27FFF99C1A2EF0A700A12A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFF99B1A2EF0A700A12A7F /* ViewController.m */; };
@@ -14,6 +23,8 @@
 		27FFF9A11A2EF0A700A12A7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FFF9A01A2EF0A700A12A7F /* Images.xcassets */; };
 		27FFF9A41A2EF0A700A12A7F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FFF9A21A2EF0A700A12A7F /* LaunchScreen.xib */; };
 		27FFF9B01A2EF0A700A12A7F /* TabViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFF9AF1A2EF0A700A12A7F /* TabViewControllerTests.m */; };
+		27FFF9BC1A2EF39100A12A7F /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FFF9B91A2EF39100A12A7F /* homer.png */; };
+		27FFF9BD1A2EF39100A12A7F /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FFF9BA1A2EF39100A12A7F /* bart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27F66B7F1A2EFDE800C298AA /* bart_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart_icon.png; sourceTree = "<group>"; };
+		27F66B811A2EFE2900C298AA /* marge_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge_icon.png; sourceTree = "<group>"; };
+		27F66B831A2EFE5000C298AA /* duff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duff.png; sourceTree = "<group>"; };
+		27F66B851A2F014200C298AA /* bart_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bart_icon@2x.png"; sourceTree = "<group>"; };
+		27F66B861A2F014200C298AA /* duff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duff@2x.png"; sourceTree = "<group>"; };
+		27F66B871A2F014200C298AA /* marge_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marge_icon@2x.png"; sourceTree = "<group>"; };
+		27F66B8B1A2F048100C298AA /* marge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marge@2x.png"; sourceTree = "<group>"; };
+		27F66B8D1A2F050700C298AA /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge.png; sourceTree = "<group>"; };
+		27F66B8F1A2F05EA00C298AA /* marge_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge_new.png; sourceTree = "<group>"; };
 		27FFF9901A2EF0A700A12A7F /* TabViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FFF9941A2EF0A700A12A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27FFF9951A2EF0A700A12A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,8 @@
 		27FFF9A91A2EF0A700A12A7F /* TabViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FFF9AE1A2EF0A700A12A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27FFF9AF1A2EF0A700A12A7F /* TabViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewControllerTests.m; sourceTree = "<group>"; };
+		27FFF9B91A2EF39100A12A7F /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		27FFF9BA1A2EF39100A12A7F /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +110,7 @@
 				27FFF99D1A2EF0A700A12A7F /* Main.storyboard */,
 				27FFF9A01A2EF0A700A12A7F /* Images.xcassets */,
 				27FFF9A21A2EF0A700A12A7F /* LaunchScreen.xib */,
+				27FFF9BF1A2EF39B00A12A7F /* Images */,
 				27FFF9931A2EF0A700A12A7F /* Supporting Files */,
 			);
 			path = TabViewController;
@@ -117,6 +140,24 @@
 				27FFF9AE1A2EF0A700A12A7F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FFF9BF1A2EF39B00A12A7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27F66B8F1A2F05EA00C298AA /* marge_new.png */,
+				27F66B7F1A2EFDE800C298AA /* bart_icon.png */,
+				27F66B811A2EFE2900C298AA /* marge_icon.png */,
+				27F66B851A2F014200C298AA /* bart_icon@2x.png */,
+				27F66B8B1A2F048100C298AA /* marge@2x.png */,
+				27F66B8D1A2F050700C298AA /* marge.png */,
+				27F66B861A2F014200C298AA /* duff@2x.png */,
+				27F66B871A2F014200C298AA /* marge_icon@2x.png */,
+				27FFF9B91A2EF39100A12A7F /* homer.png */,
+				27F66B831A2EFE5000C298AA /* duff.png */,
+				27FFF9BA1A2EF39100A12A7F /* bart.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +240,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F66B891A2F014200C298AA /* duff@2x.png in Resources */,
 				27FFF99F1A2EF0A700A12A7F /* Main.storyboard in Resources */,
+				27F66B841A2EFE5000C298AA /* duff.png in Resources */,
+				27F66B821A2EFE2900C298AA /* marge_icon.png in Resources */,
+				27F66B881A2F014200C298AA /* bart_icon@2x.png in Resources */,
+				27FFF9BD1A2EF39100A12A7F /* bart.png in Resources */,
+				27F66B8C1A2F048100C298AA /* marge@2x.png in Resources */,
+				27F66B801A2EFDE800C298AA /* bart_icon.png in Resources */,
 				27FFF9A41A2EF0A700A12A7F /* LaunchScreen.xib in Resources */,
+				27F66B901A2F05EA00C298AA /* marge_new.png in Resources */,
 				27FFF9A11A2EF0A700A12A7F /* Images.xcassets in Resources */,
+				27F66B8A1A2F014200C298AA /* marge_icon@2x.png in Resources */,
+				27F66B8E1A2F050700C298AA /* marge.png in Resources */,
+				27FFF9BC1A2EF39100A12A7F /* homer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +464,7 @@
 				27FFF9B51A2EF0A700A12A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FFF9B61A2EF0A700A12A7F /* Build configuration list for PBXNativeTarget "TabViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				27FFF9B81A2EF0A700A12A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
